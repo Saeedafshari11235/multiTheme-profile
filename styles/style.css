@@ -1,6 +1,9 @@
 :root{
     --color: #542E71;
 }
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 body{
     display: flex;
     margin: 0;
