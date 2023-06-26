@@ -70,3 +70,25 @@ span.num{
     font-size: 1.5rem;
     font-weight: 500;
 }
+div.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+div.buttons div{
+    border: solid 0.3rem var(--color);
+    border-radius: 80rem;
+    text-align: center;
+    padding: 0.3rem 0;
+    width: 6rem;
+    font-weight: 500;
+}
+div.buttons div.follow{
+    background-color: var(--color);
+    color: #fff;
+}
+div.buttons div.message{
+    color: var(--color);
+}
