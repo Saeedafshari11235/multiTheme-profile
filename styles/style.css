@@ -107,3 +107,55 @@ div.buttons div.message:hover{
     transform: translateY(-0.5rem);
     box-shadow: 0rem 1rem 1rem #c0c0c0;
 }
+.theme{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 10.5rem;
+    justify-content: space-between;
+}
+i{
+    font-size: 2rem;
+    color: var(--color);
+    margin-left: 4rem;
+    transition: 0.4s;
+}
+.theme:hover i{
+    margin-left: 0;
+}
+div.colors{
+    display: none;
+    flex-direction: row;
+    width: 8rem;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0.5rem 1rem;
+    height: 1.3rem;
+    border-radius: 3rem;
+    transition: 0.4s;
+}
+.theme:hover div.colors{
+    display: flex;
+}
+div.colors span{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.purple{
+    background-color: #542E71;
+}
+.red{
+    background-color: #FB3640;
+}
+.yellow{
+    background-color: #FDCA40;
+}
+.orange{
+    background-color: #FF6D28;
+}
+.cyan{
+    background-color: #00F5FF;
+}
