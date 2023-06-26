@@ -1,3 +1,6 @@
+:root{
+    --color: #542E71;
+}
 body{
     display: flex;
     margin: 0;
